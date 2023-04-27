@@ -1,0 +1,78 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>UNBOX contact</title>
+    </head>
+
+    <body>
+        
+        <h1>You can easily contact the UNBOX thinking human beings through some of the following methods...</h1>
+        
+        <p>
+            
+            <ul>
+                <li>e-mail: unboxco@gmail.com</li>
+                <li> phone: +55 (45) 9 9912-7538</li>
+            </ul>
+            
+            <hr size="4" color="orange"/>
+        
+        </p>  
+
+        <br>
+        
+        <p>
+            
+            <h2>You can also leave some info about you here, so that we are able to reach'ya with some of our latest news and ideas</h2>
+            
+            <br>
+
+            <form action="mailto:unboxco@gmail.com" method="post" enctype="text/plain">
+            <!--aprender mais sobre (action) da tag form na documentação-->
+            <!--checar tipos da tag (input) na documentação, tem muita coisa interessante-->
+            
+                <label for="">Name</label> <br>
+                <input type="text" name="Name" size="60" required /> <br> <br>
+
+                <label for="">E-mail</label> <br>
+                <input type="email" name="e-mail" size="60" /> <br> <br>
+
+                <label for="">Tel</label> <br>
+                (<input type="tel" name="Tel DDD" pattern="[0-9]{2}" size="1" />)
+                <input type="tel" name="Tel part 01" pattern="[0-9]{5}" size="4" /> - 
+                <input type="tel" name="Tel part 02" pattern="[0-9]{4}" size="4" /> <br> 
+                <small>Format (xx) xxxxx - xxxx</small> <br> <br>
+
+                <label for="">Would you like to receive our latest news?</label> <br>
+                <input type="radio" name="button news" value="Yes, gimme" required checked>Yes, gimme <br>
+                <input type="radio" name="button news" value="No, i'm pretty boring 😒" required>No, i'm pretty boring 😒 <br> <br>
+                
+                <label for="">Leave us a message, if you want to...</label> <br>
+                <textarea name="Message" id="" cols="60" rows="10"></textarea> <br> <br>
+
+                <input type="submit" value="Send it"> <input type="reset" value="Reset all">
+                
+            </form>
+
+        </p>
+        
+        <center><img src="../img/Logo Unbox Modificada.png" alt="Logo Unbox" width="16%"></center>
+        <!--usando (../) posso navegar pelos folders dos arquivos do código, podendo usar imagens e paths de outras pastas,
+        antes eu tinha copiado o path da home direto do navegador e estava adicionando as imagens às pastas de arquivos para
+        poder usar em pastas 'sub'-->
+        
+        <br>
+        
+        <a href="../index.html">
+            <h4>get back to home page, <em>if you dare...</em></h4>    
+        </a>
+        
+        <a href="EasterEgg - Company Competencies/Competencies.html">
+            <h4>EasterEgg waiting for you, by clicking here</h4>
+        </a>
+
+    </body>
+
+</html>
